@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Image Fusion App</title>
+</head>
+<body>
+    <header>
+        <h1>Medical Image Fusion</h1>
+    </header>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="pat_image">Upload PAT Image:</label>
+        <input type="file" name="pat_image" required>
+        
+        <label for="mri_image">Upload MRI Image:</label>
+        <input type="file" name="mri_image" required>
+        
+        <button type="submit">Fuse Images</button>
+    </form>
+</body>
+</html>

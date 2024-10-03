@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Fusion Result</title>
+</head>
+<body>
+    <header>
+        <h1>Fused Image Result</h1>
+    </header>
+    <div class="result-container">
+        <h2>Fused Image:</h2>
+        <img src="{{ fused_image }}" alt="Fused Image">
+        
+        <h2>Description:</h2>
+        <div class="description">{{ description }}</div>
+    </div>
+    <a href="/">Go Back</a>
+</body>
+</html>

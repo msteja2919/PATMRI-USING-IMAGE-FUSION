@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #e1f5fe, #bbdefb); /* Light Blue Gradient */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #1976d2; /* Blue Color */
+    font-size: 2.5em;
+}
+
+/* Form Styles */
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #424242; /* Dark Gray */
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #43a047; /* Green Color */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c; /* Darker Green on Hover */
+}
+
+/* Result Section Styles */
+.result-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #1976d2; /* Blue Border */
+    border-radius: 8px;
+}
+
+.description {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #424242; /* Dark Gray */
+    background-color: #f1f1f1; /* Light Gray Background */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+/* Link Styles */
+a {
+    color: #1976d2; /* Blue Color */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
